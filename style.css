@@ -29,6 +29,9 @@ html {
     position: absolute;
     cursor: pointer;
     cursor: pointer;
+    background-color: white;
+    outline: none;
+    border: none;
 }
 
 .modal-close {
@@ -43,13 +46,14 @@ html {
 .next {
     right: -50px;
     top: 213px; 
+    font-weight: 500;
 }
 
 .prev {
     left: -50px;
     top: 213px;
+    font-weight: 500;
 }
-
 
 .hidden {
     display: none;
@@ -70,7 +74,7 @@ h1 {
 
 #search {
     width: 31.25rem;
-    border: #8D8B8B solid 1.5px;
+    border: #8D8B8B solid 1px;
     outline: none;
 }
 
