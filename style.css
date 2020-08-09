@@ -23,24 +23,55 @@ html {
     padding: 35px 20px;
 }
 
-.modal-close {
+.modal-close,
+.next,
+.prev {
     position: absolute;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.modal-close {
     right: 15px;
     top: 5px;
-    cursor: pointer;
     background-color: white;
     outline: none;
     border: none;
-    font-weight: 600;
 }
+
+
+.next {
+    right: -50px;
+    top: 213px; 
+}
+
+.prev {
+    left: -50px;
+    top: 213px;
+}
+
 
 .hidden {
     display: none;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
-    margin-left: 4rem;
     color: gray;
+}
+
+#search {
+    width: 31.25rem;
+    border: #8D8B8B solid 1.5px;
+    outline: none;
 }
 
 .grid-container {
@@ -58,6 +89,7 @@ h1 {
     margin-left: auto;
     justify-content: space-evenly;
     align-items: center;
+    cursor: pointer;
 }
 
 .card img {
