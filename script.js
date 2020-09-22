@@ -131,7 +131,6 @@ next.addEventListener("click", function(){
     if(arrowIndex < employees.length - 1) {
         arrowIndex++;
         generateModal(arrowIndex);
-        console.log(arrowIndex);
     }
 });
 
